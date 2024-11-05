@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@keyframes wheel {
+    100% {
+        opacity: 0;
+        top: 27px;
+    }
+}
+.hero-section{
+    color: #fff;
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../../assets/Images/hero-bg.svg);
+    background-position: center;
+    height: 100vh;
+    min-height: 80rem;
+    max-height: 120rem;
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+}
+.primary-heading{
+    font-size: 5.8rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-weight: 800;
+}
+.primary-text{
+    color: rgb(51, 51, 51);
+    font-size: 2.2rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+}
+.home-hero__socials {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: .5rem;
+}
+.home-hero__social {
+    width: 5rem;
+}
+.home-hero__social-icon-link {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    transition: background .3s;
+    border-radius: 5px;
+}
+.home-hero__social-icon {
+    width: 100%;
+}
+.hero-project-button{
+    margin-top: 5rem;
+    text-align: center;
+}
+.btn--bg {
+    padding: 1.5rem 8rem;
+    font-size: 2rem;
+}
+.btn {
+    background: #7843E9;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+.btn:hover {
+    transform: translateY(-3px);
+}
+.hero-mouse-scroll{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mouse {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    /* -webkit-animation: wheel 1.3s infinite; */
+}

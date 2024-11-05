@@ -1,0 +1,87 @@
+.about {
+    background: #fafafa;
+}
+.sec-pad {
+    padding: 12rem 0;
+}
+.about-container{
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+.about-heading-container{
+    margin-bottom: 9rem;    
+}
+.about-heading{
+    display: block;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: #111;
+}
+.about-heading::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843E9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+.about-heading-sub{
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: auto;
+    line-height: 1.6;
+}
+.aboutMe-content-container{
+    margin-bottom: 3rem;
+}
+.aboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+}
+.aboutMe-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+.aboutMe-content{
+    font-size: 1.8rem;
+    color: #666;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+.btn--theme {
+    background: #7843E9;
+    color: #fff;
+}
+.btn--med {
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
