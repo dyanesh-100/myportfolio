@@ -1,5 +1,5 @@
 import React from 'react'
-import DP  from '../../assets/Images/profile-pic.jpg'
+import DP  from '../../assets/images/profile-pic.jpg'
 import { Link } from 'react-router-dom'
 import './NavBarComponent.css'
 const NavBarComponent = () => {

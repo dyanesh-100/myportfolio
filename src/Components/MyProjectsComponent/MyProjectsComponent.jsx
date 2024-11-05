@@ -1,7 +1,7 @@
 import React from 'react'
 import './MyProjectsComponent.css'
-import project1 from '../../assets/Images/cloudnest-project.jpg'
-import project2 from '../../assets/Images/kitchencollab-project.jpg'
+import project1 from '../../assets/images/cloudnest-project.jpg'
+import project2 from '../../assets/images/kitchencollab-project.jpg'
 const MyProjectsComponent = () => {
   return (
     <React.Fragment>
